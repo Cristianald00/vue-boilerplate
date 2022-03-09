@@ -33,7 +33,6 @@
                     exact
                     :class="['hidden-sm-and-down', item.class]"
                 >
-                    <!-- <v-icon>{{ item.icon }}</v-icon> -->
                     <font-awesome-icon icon="hat-wizard" />
                     &nbsp;{{ item.title }}
                 </v-btn>
