@@ -1,5 +1,12 @@
 <template>
-    <v-container fluid>
+    
+    <div class="">
+        <div class="" style="display: block; background: orange; width: 300px; height: 300px;">
+            HOOOME
+        </div>
+    </div>
+    
+    <!-- <v-container fluid>
         <v-layout row wrap>
             <div class="text-center">
                 <v-dialog v-model="showVerifyDialog" width="500" persistent>
@@ -34,7 +41,7 @@
             <Description :description="$t('home.DESCRIPTION')" />
         </v-layout>
         <ProjectDescription />
-    </v-container>
+    </v-container> -->
 </template>
 
 <script>

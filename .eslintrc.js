@@ -12,7 +12,7 @@ module.exports = {
         'formidable/rules/eslint/style/on',
         'formidable/rules/eslint/variables/on',
         'plugin:vue/essential',
-        '@vue/prettier'
+        //'@vue/prettier'
     ],
     rules: {
         // 'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
@@ -92,7 +92,7 @@ module.exports = {
         // ],
         // 'semi-style': ['warn', 'last'],
         // 'space-before-function-paren': ['off', 2],
-        'prettier/prettier': ['error', { endOfLine: 'auto', tabWidth: 4 }]
+        // 'prettier/prettier': ['error', { endOfLine: 'auto', tabWidth: 4 }]
     },
     parserOptions: {
         parser: 'babel-eslint'

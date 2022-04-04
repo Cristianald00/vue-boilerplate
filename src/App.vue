@@ -1,22 +1,20 @@
 <template>
     <v-app>
-        <Toolbar />
+        <HeadMain />
         <v-main class="text-center">
             <loading />
-            <v-container fluid>
-                <transition name="fade" mode="out-in">
-                    <router-view />
-                </transition>
-            </v-container>
+            <transition name="fade" mode="out-in">
+                <router-view />
+            </transition>
         </v-main>
         <Footer />
     </v-app>
 </template>
 
 <script>
-import Toolbar from '@/components/core/Toolbar.vue'
-import Loading from '@/components/core/Loading.vue'
-import Footer from '@/components/core/Footer.vue'
+import HeadMain from '@/components/main/HeadMain.vue'
+import Loading from '@/components/main/LoadingMain.vue'
+import Footer from '@/components/main/LoadingMain.vue'
 
 export default {
     name: 'App',
@@ -70,7 +68,7 @@ export default {
         }
     },
     components: {
-        Toolbar,
+        HeadMain,
         Loading,
         Footer
     },
@@ -83,6 +81,14 @@ export default {
 </script>
 
 <style>
+.v-app * {
+    display: block;
+    width: 100%;
+    background: transparent;
+    padding: 0px;
+    margin: 0px;
+}
+
 .fade-enter-active,
 .fade-leave-active {
     transition: opacity 0.1s;

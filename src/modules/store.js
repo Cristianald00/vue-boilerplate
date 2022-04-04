@@ -1,11 +1,12 @@
 import { store as auth } from './auth'
 import { store as dashboard } from './dashboard'
 import { store as landing } from './landing'
+import { store as products } from './products'
 import { store as profile } from './profile'
 import { store as users } from './users'
 
 // start extraction data from store modules
-const store = { auth, dashboard, landing, profile, users }
+const store = { auth, dashboard, landing, profile, users, products }
 const keys = Object.keys(store)
 
 /**

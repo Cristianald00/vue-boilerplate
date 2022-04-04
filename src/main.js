@@ -9,14 +9,6 @@ import App from '@/App.vue'
 import router from '@/router'
 import { store } from '@/store'
 import VuetifyConfirm from 'vuetify-confirm'
-/* Font Awesome */
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faHatWizard } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-
-// Add icon libraries to be used
-library.add(faHatWizard)
-Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = false
 Vue.use(VuetifyConfirm, { vuetify })
