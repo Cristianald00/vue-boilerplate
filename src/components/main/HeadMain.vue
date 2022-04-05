@@ -40,7 +40,7 @@ import LocaleChangerMain from '@/components/main/LocaleChangerMain'
 import ResizeText from 'vue-resize-text'
 
 export default {
-    name: 'Toolbar',
+    name: 'HeadMain',
     // router: Router,
     metaInfo() {
         return {
